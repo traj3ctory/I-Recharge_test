@@ -1,0 +1,66 @@
+main.card_container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  position: relative;
+  /* top left*/
+}
+
+main.card_container div.recommended {
+  position: absolute;
+  top: 1vh;
+  left: -1rem;
+  background-color: #480550;
+  color: white;
+  padding: 0.2rem 0.5rem;
+}
+
+main.card_container .ribbon {
+  --p: 15px;
+}
+
+main.card_container .ribbon:before,
+main.card_container .ribbon:after {
+  background-color: inherit;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: calc(var(--p) / 2);
+  width: var(--p);
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+  z-index: -1;
+}
+
+main.card_container .ribbon:before {
+  left: 0;
+  -webkit-transform: skewy(45deg);
+          transform: skewy(45deg);
+}
+
+main.card_container .ribbon:after {
+  right: 0;
+  -webkit-transform: skewy(-45deg);
+          transform: skewy(-45deg);
+}
+
+main.card_container div.price {
+  position: absolute;
+  top: 1vh;
+  right: -1rem;
+  background-color: #05501e;
+  color: white;
+  padding: 0.8rem 0.4rem;
+  border-radius: 50%;
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=card_component.css.map */
