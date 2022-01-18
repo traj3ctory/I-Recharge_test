@@ -14,6 +14,12 @@ main.card_container {
   /* top left*/
 }
 
+main.card_container div.product_container {
+  min-width: 15rem;
+  width: 15rem;
+  min-height: 25rem;
+}
+
 main.card_container div.recommended {
   position: absolute;
   top: 1vh;

@@ -5,6 +5,12 @@ main.card_container {
   justify-content: center;
   width: 100%;
   position: relative;
+  div.product_container{
+    min-width: 15rem;
+    width: 15rem;
+    min-height: 25rem;
+    // max-width: 15rem;
+  }
   div.recommended {
     position: absolute;
     top: 1vh;
