@@ -13,31 +13,39 @@
 <body class="bg-">
 
     <main class="container card_container">
-        <div class="row">
-            <div class="col-lg-6 col-md-8 col-12 mx-auto mb-3">
-                <div class="card shadow-lg border-0 rounded-3 text-center product_container">
-                    <div class="card-body">
-                        <div class="recommended ribbon shadow">
-                            Recommended
-                        </div>
-                        <div class="price shadow">-40%</div>
-                        <div class="my-5">
-                            <img src="img/iphone_black.jpeg" alt="iphone" class="img-fluid" width="90rem" id="product_img" />
-                        </div>
-                        <div>
-                            <p class="card-text mb-3">Some quick example text.</p>
-                            <span>
-                                <button data-color="black" class="btn btn-sm rounded-circle btn-dark mx-1 shadow-sm p-3 btn_color"></button>
-                                <button data-color="blue" class="btn btn-sm rounded-circle btn-primary mx-1 shadow-sm p-3 btn_color"></button>
-                                <button data-color="white" class="btn btn-sm rounded-circle btn-white border-1 mx-1 shadow-sm p-3 btn_color"></button>
-                                <button data-color="red" class="btn btn-sm rounded-circle btn-danger mx-1 shadow-sm p-3 btn_color"></button>
-                            </span>
-                            <h4 class="mt-3">225<sub>£</sub></h4>
-                        </div>
+        <!-- <div class="row">
+            <div class="col-lg-6 col-md-8 col-12 mx-auto mb-3"> -->
+        <div class="card shadow-lg border-0 rounded-3 text-center product_container">
+            <div class="card-body">
+                <div class="recommended ribbon shadow">
+                    Recommended
+                </div>
+                <div class="discount shadow-sm">-40%</div>
+                <div class="row product_item">
+                    <div class="col-md-12 col-5">
+                        <img src="img/iphone_blue.jpeg" alt="iphone" class="img-fluid" 
+                            id="product_img" />
+                    </div>
+                    <div class="col-md-12 col-7">
+                        <h4 class="mt-2">iPhone 8</h4>
+                        <p class="card-text mb-3">Some quick example text.</p>
+                        <span class="color">
+                            <button data-item="0" data-color="blue"
+                                class="active btn btn-sm rounded-circle blue m-1 btn_color"></button>
+                            <button data-item="1" data-color="silver"
+                                class="btn btn-sm rounded-circle silver m-1 btn_color"></button>
+                            <button data-item="2" data-color="gold"
+                                class="btn btn-sm rounded-circle gold border-1 m-1 btn_color"></button>
+                            <button data-item="3" data-color="graphite"
+                                class="btn btn-sm rounded-circle graphite m-1 btn_color"></button>
+                        </span>
+                        <h3 class="price mt-3">225&nbsp;€</h3>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- </div>
+        </div> -->
     </main>
 
     <!-- JavaScript Bundle with Popper -->
