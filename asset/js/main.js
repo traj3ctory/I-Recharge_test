@@ -8,8 +8,8 @@ const button = document.querySelectorAll("button.btn_color");
 
 // Loop through the array of buttons with className btn_color
 button.forEach((el, i) => {
-  // Add event listener {click} to each button
-  el.addEventListener("click", (e) => {
+  // Add event listener {mouseover} which changes to click on mobile device to each button
+  el.addEventListener("mouseover", (e) => {
     const index = el.getAttribute("data-item");
     e.preventDefault();
     // Get the data-color attribute from the button
